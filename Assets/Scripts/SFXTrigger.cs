@@ -13,7 +13,7 @@ public class SFXTrigger : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && isPlayed)
+        if (other.CompareTag("GameController") && !isPlayed)
         {
             GameManager.instance.audioSource.PlayOneShot(GameManager.instance.shortEffect[Random.Range(0, GameManager.instance.shortEffect.Count - 1)]);
             isPlayed = true;
