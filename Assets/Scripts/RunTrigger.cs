@@ -8,13 +8,11 @@ public class RunTrigger : MonoBehaviour
     bool isPlayed;
     [SerializeField] GameObject ghost;
     [SerializeField] Transform targetPos;
-    Animator anim;
-    NavMeshAgent agent_;
+    [SerializeField] Animator anim;
+    [SerializeField] NavMeshAgent agent_;
     private void Awake()
     {
         isPlayed = false;
-        agent_ = ghost.transform.GetChild(0).GetComponent<NavMeshAgent>();
-        anim = transform.GetChild(0).GetComponent<Animator>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -24,6 +22,14 @@ public class RunTrigger : MonoBehaviour
             GameManager.instance.audioSource.PlayOneShot(GameManager.instance.shortEffect[Random.Range(0, GameManager.instance.shortEffect.Count - 1)]);
             agent_.SetDestination(targetPos.position);
             anim.SetFloat("Speed", 1f);
+        }
+    }
+
+    private void Update()
+    {
+        if (agent_.remainingDistance < 1f && isPlayed)
+        {
+            Destroy(gameObject);
         }
     }
 }

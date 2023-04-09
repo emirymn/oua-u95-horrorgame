@@ -8,7 +8,8 @@ public class DestroyParent : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ghost"))
         {
-            Destroy(transform.parent.gameObject, 0.1f);
+            Debug.Log(other.name);
+            Destroy(other.gameObject.transform.parent.gameObject, 0.1f);
         }
     }
 }
