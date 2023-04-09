@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class CameraOrigin : MonoBehaviour
 {
@@ -16,7 +17,10 @@ public class CameraOrigin : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
-                GameManager.instance.lockDoors[1] = true;
+                GameManager.instance.lockDoors[hit.transform.gameObject.GetComponent<Key>().numberOf] = true;
+                UIController.instance.newItemNameText.text = hit.transform.gameObject.name + "";
+                StartCoroutine(UIController.instance.KeyNameShow());
+                UIController.instance.KeyImageFadeOpen();
                 Destroy(hit.transform.gameObject, 0.1f);
             }
             Debug.DrawRay(cam.transform.position, cam.transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);

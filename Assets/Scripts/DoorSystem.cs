@@ -6,7 +6,7 @@ using DG.Tweening;
 public class DoorSystem : MonoBehaviour
 {
     [SerializeField] GameObject doorOne, doorTwo;
-    [SerializeField] enum DoorType { swipe, DoubleClassic, Classic, balcoon }
+    [SerializeField] enum DoorType { swipe, DoubleClassic, Classic, balcoon, cantOpen }
     [SerializeField] private DoorType doorType;
     public enum IsLocked { noLock, clasicLock, PasswordLock }
     public IsLocked isLocked;
@@ -54,7 +54,7 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (Input.GetKeyUp(KeyCode.E) && canOpen)
                     {
-                        if (isLocked != IsLocked.clasicLock)
+                        if (isLocked != IsLocked.clasicLock && doorType != DoorType.cantOpen)
                         {
                             if (isClosed)
                             {
@@ -125,26 +125,29 @@ public class DoorSystem : MonoBehaviour
                 }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("GameController"))
+        {
+            if (isLocked == IsLocked.clasicLock)
+            {
+                if (GetComponent<DoorLock>() != null)
+                {
+                    if (!GameManager.instance.lockDoors[GetComponent<DoorLock>().numberOf])
+                    {
+                        UIController.instance.AlertUI(UIController.instance.alertImg);
+                    }
+                }
+            }
+            if (doorType == DoorType.cantOpen)
+            {
+                UIController.instance.AlertUI(UIController.instance.alertImg);
+            }
+        }
+    }
     private void OnTriggerStay(Collider other)
     {
-        /*     switch (isLocked)
-             {
-                 case IsLocked.noLock:
-                     {
-                         break;
-                     }
-                 case IsLocked.clasicLock:
-                     {
-                         //  ] = true;
-                         // isUnlocked = ;
-                         break;
-                     }
-                 case IsLocked.PasswordLock:
-                     {
-                         break;
-                     }
-             }*/
-
         if (other.gameObject.CompareTag("GameController"))
         {
             canOpen = true;
@@ -152,9 +155,9 @@ public class DoorSystem : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-
         if (other.gameObject.CompareTag("GameController"))
         {
+            UIController.instance.AlertClose(UIController.instance.alertImg);
             canOpen = false;
         }
     }
