@@ -11,10 +11,11 @@ public class DoorSystem : MonoBehaviour
     public enum IsLocked { noLock, clasicLock, PasswordLock }
     public IsLocked isLocked;
     private float close, open;
-    bool canOpen, isClosed, isOpened, isUnlocked;
+    bool canOpen, isClosed, isOpened, isUnlocked, isEntered;
 
     private void Awake()
     {
+        isEntered = false;
         isClosed = true;
         isOpened = false;
         canOpen = false;
@@ -90,6 +91,12 @@ public class DoorSystem : MonoBehaviour
                             if (GameManager.instance.lockDoors[GetComponent<DoorLock>().numberOf])
                             {
                                 ClassicDoorOpenClose();
+                                if (!isEntered)
+                                {
+                                    MissionTextUpdate();
+                                    StartCoroutine(UIController.instance.MissionShow());
+                                }
+                                isEntered = true;
                             }
                         }
                         else
@@ -103,7 +110,35 @@ public class DoorSystem : MonoBehaviour
                 {
                     if (Input.GetKeyUp(KeyCode.E) && canOpen)
                     {
-                        if (isLocked != IsLocked.clasicLock)
+                        if (isLocked == IsLocked.clasicLock)
+                        {
+                            if (GameManager.instance.lockDoors[GetComponent<DoorLock>().numberOf])
+                            {
+
+                                if (!isEntered)
+                                {
+                                    MissionTextUpdate();
+                                    StartCoroutine(UIController.instance.MissionShow());
+                                }
+                                if (isClosed)
+                                {
+                                    isEntered = true;
+                                    isClosed = false;
+                                    isOpened = true;
+                                    doorOne.transform.DOKill(false);
+                                    doorOne.transform.DORotate(new Vector3(0, 90f, 0), 0.5f);
+                                }
+                                else if (isOpened)
+                                {
+                                    isEntered = true;
+                                    isOpened = false;
+                                    isClosed = true;
+                                    doorOne.transform.DOKill(false);
+                                    doorOne.transform.DORotate(new Vector3(0, 180f, 0), 0.5f);
+                                }
+                            }
+                        }
+                        else if (isLocked != IsLocked.clasicLock)
                         {
                             if (isClosed)
                             {
@@ -177,6 +212,10 @@ public class DoorSystem : MonoBehaviour
             doorOne.transform.DOKill(false);
             doorOne.transform.DORotate(Vector3.zero, 0.5f);
         }
+    }
+    void MissionTextUpdate()
+    {
+        UIController.instance.MissionText.text = GetComponent<DoorLock>().missionText;
     }
 }
 

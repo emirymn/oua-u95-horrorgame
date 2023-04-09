@@ -13,15 +13,21 @@ public class CameraOrigin : MonoBehaviour
     void FixedUpdate()
     {
         RaycastHit hit;
-        if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity) && hit.transform.gameObject.CompareTag("Item"))
+        if (Physics.Raycast(cam.transform.position, cam.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
         {
             if (Input.GetKey(KeyCode.E))
             {
-                GameManager.instance.lockDoors[hit.transform.gameObject.GetComponent<Key>().numberOf] = true;
-                UIController.instance.newItemNameText.text = hit.transform.gameObject.name + "";
-                StartCoroutine(UIController.instance.KeyNameShow());
-                UIController.instance.KeyImageFadeOpen();
-                Destroy(hit.transform.gameObject, 0.1f);
+                if (hit.transform.gameObject.CompareTag("Item"))
+                {
+                    MissionTextUpdate(hit);
+                    StartCoroutine(UIController.instance.MissionShow());
+                    GameManager.instance.lockDoors[hit.transform.gameObject.GetComponent<Key>().numberOf] = true;
+                    UIController.instance.newItemNameText.text = hit.transform.gameObject.name + "";
+                    StartCoroutine(UIController.instance.KeyNameShow());
+                    UIController.instance.KeyImageFadeOpen();
+                    Destroy(hit.transform.gameObject, 0.1f);
+                }
+
             }
             Debug.DrawRay(cam.transform.position, cam.transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);
         }
@@ -29,5 +35,10 @@ public class CameraOrigin : MonoBehaviour
         {
             Debug.DrawRay(cam.transform.position, cam.transform.TransformDirection(Vector3.forward) * hit.distance, Color.red);
         }
+    }
+
+    void MissionTextUpdate(RaycastHit hit)
+    {
+        UIController.instance.MissionText.text = hit.transform.GetComponent<Key>().missionText;
     }
 }

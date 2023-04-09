@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class DoorLock : MonoBehaviour
 {
+    public string missionText;
     public int numberOf;
 }

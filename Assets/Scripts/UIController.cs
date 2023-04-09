@@ -12,6 +12,7 @@ public class UIController : MonoBehaviour
     [SerializeField] float alphaNum, alphaNumForKeyName;
     public TextMeshProUGUI MissionText, newItemNameText;
     public Image newItemImage, alertImg;
+    public GameObject blackScreen;
 
     private void Awake()
     {
@@ -116,5 +117,9 @@ public class UIController : MonoBehaviour
     {
         image.DOKill(false);
         image.DOFade(0f, 1f);
+    }
+    public void MissionTextUpdate(String stringText)
+    {
+        MissionText.text = stringText;
     }
 }

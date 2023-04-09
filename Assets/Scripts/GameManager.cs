@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     private bool tetFloorLock = false;
     private bool penFloorLock = false;
 
+    public Light flashlightLight;
+
     void Awake()
     {
         instance = this;
