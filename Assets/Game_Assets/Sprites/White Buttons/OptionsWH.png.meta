@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 19bf84f1b4460b745b8600d4b48a2831
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FullscreenWH
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 755
+        width: 1844
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843832a9c21b47b478fd1417a34126f2
+      internalID: -1737747667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrightnessWH
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 729
+        width: 1770
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443526ad6eab0cc4f9fd94d3decb8449
+      internalID: 418043420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QualityWH
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 203
+        width: 1431
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06d1951a25727a438fe76d3218748d4
+      internalID: 784424902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResolutionWH
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 315
+        width: 1736
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfd9039297477249971e9f9525efbba
+      internalID: 2003001217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ResumeWH
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1721
+        width: 1428
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63042a23446a3144b9f5f950d23a6bd7
+      internalID: 574361016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PausedWH
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1219
+        width: 1522
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e76af8fe984e964a843fd99d972c3fe
+      internalID: -1582451042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExitToMainMenuWH
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 1587
+        width: 2818
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db1fcc572f61844fa26ba96dd712821
+      internalID: 148073700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1746eb96bdd760a47a3f42e3ab3ae44c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BrightnessWH: 418043420
+      ExitToMainMenuWH: 148073700
+      FullscreenWH: -1737747667
+      OptionsWH_10: 1710304788
+      OptionsWH_11: 322326682
+      OptionsWH_12: 329484973
+      OptionsWH_13: -1056453261
+      OptionsWH_14: -1187126302
+      OptionsWH_15: 1868869004
+      OptionsWH_16: 266052849
+      OptionsWH_17: 472721792
+      OptionsWH_18: -65390101
+      OptionsWH_19: 258858861
+      OptionsWH_2: 742691521
+      OptionsWH_21: -394837432
+      OptionsWH_22: 1245574472
+      OptionsWH_23: -920836302
+      OptionsWH_24: -1344163647
+      OptionsWH_25: 1697123513
+      OptionsWH_26: -446459094
+      OptionsWH_27: -603038126
+      OptionsWH_29: -1605602496
+      OptionsWH_3: 2048137882
+      OptionsWH_30: -1715468163
+      OptionsWH_31: 1040989319
+      OptionsWH_32: -1367683976
+      OptionsWH_35: 287921726
+      OptionsWH_36: 503051570
+      OptionsWH_37: -557526107
+      OptionsWH_38: -1597378718
+      OptionsWH_39: 1864263327
+      OptionsWH_4: -844307265
+      OptionsWH_5: -240895851
+      OptionsWH_6: -218409325
+      OptionsWH_7: -1584268032
+      OptionsWH_8: 1696329786
+      OptionsWH_9: 2121025159
+      PausedWH: -1375488919
+      QualityWH: 784424902
+      ResolutionWH: 2003001217
+      ResumeWH: 1364633811
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Assets/EvolveGames/RealisticFPSController/Scenes/DemoScene.unity
-    guid: ab0b46e2e44b5d14f99aff193b77d1c2
+    path: Assets/Scenes/MainMenu.unity
+    guid: 738b107eecefff149bbe6dc9c4efe16c
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 35d1ee25a3329ad4892eafdb28a40154
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

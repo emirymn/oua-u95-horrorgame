@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 1af42e5383f76b44590aa3e394ec90c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ResetToDefaultsWH
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1668
+        width: 2532
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca31454282c5fc45bc777ad7f0f22cd
+      internalID: 1852261733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sound_WH
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 1718
+        width: 697
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d6404a822aa6d458850c26dd68bab9
+      internalID: 1200265260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackWH
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1258
+        width: 1048
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecee86a1bf8f04d4e84af225040c8022
+      internalID: 2099861307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ApplyWH
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1347
+        width: 634
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2460eec46dca61f439d7e8f3044acf40
+      internalID: -1773798013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraphicsWH
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1381
+        width: 873
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc914d8b40af57e4493f29c581731115
+      internalID: -1914060281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YesWH
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 831
+        width: 577
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efbd0e297430a7469dbd0e4136bad36
+      internalID: 841897862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NoWH
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 852
+        width: 482
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9122f7a41b44a94797a0be1aecbdf8d
+      internalID: -1744492119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameplayWH
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1059
+        width: 1014
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44218e69e97584d44828375324b5d845
+      internalID: 949047660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudioWH
+      rect:
+        serializedVersion: 2
+        x: 3554
+        y: 653
+        width: 636
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba49c13993a0384d8883d8b9c2e5273
+      internalID: -144482424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VolumeWH
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 411
+        width: 1064
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9366cdf6d3feb9c4aad8bebb64236d73
+      internalID: 2024073196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SensitivityWH
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 183
+        width: 1761
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffbdad33fa1ed44380c6dd8cf0e9f82
+      internalID: -1376506402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onlyBack_WH
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1258
+        width: 755
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23565cf57a6f6d34284e3011cf7302c9
+      internalID: 416845491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7cdb519a66db1654faa6f850590a724c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ApplyWH: -1773798013
+      AudioWH: -144482424
+      BackWH: 2099861307
+      GameplayWH: 949047660
+      GraphicsWH: -1914060281
+      NoWH: -1744492119
+      OtherButtonsWh_1: 143938286
+      OtherButtonsWh_10: 469407800
+      OtherButtonsWh_13: -1889417661
+      OtherButtonsWh_14: 912529034
+      OtherButtonsWh_15: 364490042
+      OtherButtonsWh_17: -1293077745
+      OtherButtonsWh_19: -945307980
+      OtherButtonsWh_20: 729731247
+      OtherButtonsWh_21: -2046896876
+      OtherButtonsWh_23: -1491217506
+      OtherButtonsWh_24: -1955987628
+      OtherButtonsWh_25: -525974208
+      OtherButtonsWh_26: -605470608
+      OtherButtonsWh_28: -1710919890
+      OtherButtonsWh_29: -829416627
+      OtherButtonsWh_3: -1900999665
+      OtherButtonsWh_30: -1652045404
+      OtherButtonsWh_31: 677600595
+      OtherButtonsWh_33: -1168545965
+      OtherButtonsWh_34: 193641020
+      OtherButtonsWh_35: 315611715
+      OtherButtonsWh_36: 79349468
+      OtherButtonsWh_4: -172213097
+      OtherButtonsWh_6: -1845742173
+      OtherButtonsWh_9: -1911595062
+      ResetToDefaultsWH: 1852261733
+      ResetWH: 1474091017
+      SensitivityWH: -1376506402
+      Sound_WH: 1200265260
+      VolumeWH: 2024073196
+      YesWH: 841897862
+      onlyBack_WH: 416845491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,14 +26,14 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         instance = this;
-
+        Cursor.visible = false;
         lockDoors.Add(gardenLock);
         lockDoors.Add(priFloorLock);
         lockDoors.Add(duoFloorLock);
         lockDoors.Add(triFloorLock);
         lockDoors.Add(tetFloorLock);
         lockDoors.Add(penFloorLock);
-        
+
         audioSource.PlayOneShot(backMusicList[Random.Range(0, backMusicList.Count - 1)]);
     }
 

@@ -17,17 +17,17 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.04
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.24528301, g: 0.08908863, b: 0.08908863, a: 1}
+  m_AmbientSkyColor: {r: 0.05660379, g: 0.0050729797, b: 0.0050729797, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.046502307, g: 0.04669122, b: 0.047169805, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e099ba057fcdc4b438c536be77adaf0e, type: 2}
-  m_HaloStrength: 0.5
+  m_SkyboxMaterial: {fileID: 2100000, guid: 1d368495645d74a4cade037b4eba2aac, type: 2}
+  m_HaloStrength: 0.459
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.056823857, g: 0.056823857, b: 0.056823857, a: 1}
+  m_IndirectSpecularColor: {r: 0.05390338, g: 0.059017062, b: 0.09421677, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96511bee45d8a41419323f3d143c8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: 3. Kat\u0131n Anahtar\u0131n\u0131 Bul"
+  missionText: 'Mission: Find the key to the third floor'
   numberOf: 2
 --- !u!1 &9929014 stripped
 GameObject:
@@ -1157,8 +1157,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back Door Key
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0e25228972c64f24c850be1b61ea248e, type: 2}
+  m_sharedMaterial: {fileID: -4943184780072600260, guid: 0e25228972c64f24c850be1b61ea248e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4257,7 +4258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
       propertyPath: missionText
-      value: "G\xF6rev: 3. Kata \xC7\u0131k "
+      value: 'Mission: Go to the third floor'
       objectReference: {fileID: 0}
     - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
         type: 3}
@@ -4386,93 +4387,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!1001 &162758329
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 821770280}
-    m_Modifications:
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: numberOf
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: missionText
-      value: "G\xF6rev: 2. Kata \xC7\u0131k "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.119
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 11.002
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9272431
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00000002026555
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.3744598
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.000000008184076
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -43.982
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7303914346897205540, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_Name
-      value: 2. Floor Key (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
---- !u!4 &162758330 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-    type: 3}
-  m_PrefabInstance: {fileID: 162758329}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &164992308 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9056440916917075764, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -20378,7 +20292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96511bee45d8a41419323f3d143c8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: 2. Kat\u0131n Anahtar\u0131n\u0131 Bul"
+  missionText: 'Mission: Find the key to the second floor'
   numberOf: 1
 --- !u!1 &421776259 stripped
 GameObject:
@@ -22801,6 +22715,7 @@ MonoBehaviour:
   newItemNameText: {fileID: 38776670}
   newItemImage: {fileID: 203824969}
   alertImg: {fileID: 1655493428}
+  keyboard: {fileID: 1756928691}
   blackScreen: {fileID: 2089466085}
 --- !u!1 &511363831 stripped
 GameObject:
@@ -25247,6 +25162,7 @@ RectTransform:
   - {fileID: 684667125}
   - {fileID: 203824968}
   - {fileID: 1655493427}
+  - {fileID: 1756928690}
   m_Father: {fileID: 253275181}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25397,7 +25313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96511bee45d8a41419323f3d143c8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: Teras\u0131n Anahtar\u0131n\u0131 Bul"
+  missionText: 'Mission: Find the key to the roof'
   numberOf: 3
 --- !u!1 &616303138 stripped
 GameObject:
@@ -27275,10 +27191,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "G\xF6rev: Okula Bir Giri\u015F Bul"
+  m_text: 'Mission: Find the way inside'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0e25228972c64f24c850be1b61ea248e, type: 2}
+  m_sharedMaterial: {fileID: -4943184780072600260, guid: 0e25228972c64f24c850be1b61ea248e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28676,7 +28593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
       propertyPath: missionText
-      value: "G\xF6rev: 2. Kata \xC7\u0131k "
+      value: 'Mission: Go to the second floor'
       objectReference: {fileID: 0}
     - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
         type: 3}
@@ -31237,11 +31154,6 @@ Transform:
   - {fileID: 1117518027}
   - {fileID: 157970504}
   - {fileID: 1421602180}
-  - {fileID: 1433113171}
-  - {fileID: 1036084943}
-  - {fileID: 162758330}
-  - {fileID: 1231612942}
-  - {fileID: 948570374}
   m_Father: {fileID: 2117975047}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31889,6 +31801,142 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &844825351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844825352}
+  - component: {fileID: 844825354}
+  - component: {fileID: 844825353}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &844825352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844825351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.874, y: 2.874, z: 2.874}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2089466086}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &844825353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844825351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\"I finally got my revenge \u2665\""
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0e25228972c64f24c850be1b61ea248e, type: 2}
+  m_sharedMaterial: {fileID: -4943184780072600260, guid: 0e25228972c64f24c850be1b61ea248e,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -103.34327, y: 0, z: -107.64568, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &844825354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844825351}
+  m_CullTransparentMesh: 1
 --- !u!1 &845807197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 562926238053578628, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -34872,93 +34920,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!1001 &948570373
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 821770280}
-    m_Modifications:
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: numberOf
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: missionText
-      value: "G\xF6rev: Terasa \xC7\u0131k"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.396
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.498
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7303914346897205540, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_Name
-      value: Roof Key (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
---- !u!4 &948570374 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-    type: 3}
-  m_PrefabInstance: {fileID: 948570373}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &949942491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3058110200591739619, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -37340,89 +37301,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2623196163243065990, guid: ed066fe65e3e72441bce69399f56d2a5, type: 3}
---- !u!1001 &1036084942
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 821770280}
-    m_Modifications:
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: missionText
-      value: "G\xF6rev: 1. Kata \xC7\u0131k "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.207
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.528
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7303914346897205540, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_Name
-      value: 1. Floor Key (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
---- !u!4 &1036084943 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-    type: 3}
-  m_PrefabInstance: {fileID: 1036084942}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1037190650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 562926237315958616, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -42420,93 +42298,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2623196163243065990, guid: ed066fe65e3e72441bce69399f56d2a5, type: 3}
---- !u!1001 &1231612941
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 821770280}
-    m_Modifications:
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: numberOf
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
-      propertyPath: missionText
-      value: "G\xF6rev: 3. Kata \xC7\u0131k "
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.616
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.71
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7303914346897205540, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-        type: 3}
-      propertyPath: m_Name
-      value: 3. Floor Key (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
---- !u!4 &1231612942 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
-    type: 3}
-  m_PrefabInstance: {fileID: 1231612941}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1232263922 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5499942361275561459, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -47058,7 +46849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
       propertyPath: missionText
-      value: "G\xF6rev: Terasa \xC7\u0131k"
+      value: 'Mission: Go to the roof'
       objectReference: {fileID: 0}
     - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
         type: 3}
@@ -47391,158 +47182,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!1001 &1433113170
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 821770280}
-    m_Modifications:
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2386
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2386
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2386
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.964
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.71
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_Name
-      value: Back Door Key (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      propertyPath: m_TagString
-      value: Item
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1542259831}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1433113174}
-    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1433113173}
-  m_SourcePrefab: {fileID: 100100000, guid: 6f861a5f3e542c94a80038eab2cb83d1, type: 3}
---- !u!4 &1433113171 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1433113170}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1433113172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 6f861a5f3e542c94a80038eab2cb83d1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1433113170}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1433113173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433113172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fb59422c6bff9846ba98e79ca885f39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: Arka Kap\u0131dan Okula Gir"
-  numberOf: 0
---- !u!65 &1433113174
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433113172}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.09, y: 0.017904608, z: 0.1}
-  m_Center: {x: -0.0000000060153242, y: 0.011047701, z: -4.245015e-18}
 --- !u!1 &1433336376 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9056440916525932884, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -48250,7 +47889,7 @@ PrefabInstance:
     - target: {fileID: 4582019824381016672, guid: a01c7516e659bdf4b9897ab54df69b69,
         type: 3}
       propertyPath: RuningSpeed
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4582019824381016672, guid: a01c7516e659bdf4b9897ab54df69b69,
         type: 3}
@@ -51110,100 +50749,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2911816432197377821, guid: ed066fe65e3e72441bce69399f56d2a5, type: 3}
---- !u!1 &1542259830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1542259831}
-  - component: {fileID: 1542259832}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1542259831
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542259830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1433113171}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1542259832
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542259830}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 0.5608592, g: 1, b: 0.4198113, a: 1}
-  m_Intensity: 4
-  m_Range: 1
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &1543697044 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 562926236670894096, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -51355,7 +50900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96511bee45d8a41419323f3d143c8a23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: 1. Kat\u0131n Anahtar\u0131n\u0131 Bul"
+  missionText: 'Mission: Find the key to the first floor'
   numberOf: 0
 --- !u!114 &1545545364
 MonoBehaviour:
@@ -57349,6 +56894,82 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1756928689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1756928690}
+  - component: {fileID: 1756928692}
+  - component: {fileID: 1756928691}
+  m_Layer: 5
+  m_Name: tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1756928690
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756928689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.15251, y: 4.15251, z: 4.15251}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 606003824}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -636, y: -230}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1756928691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756928689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 91dac41b3c0085248aa71467d69a1309, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1756928692
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756928689}
+  m_CullTransparentMesh: 1
 --- !u!1 &1757586709 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5499942363083735511, guid: 31f8f5c349fa1c944a968064a79e2f88,
@@ -64598,7 +64219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fb59422c6bff9846ba98e79ca885f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missionText: "G\xF6rev: Arka Kap\u0131dan Okula Gir"
+  missionText: 'Mission: Get inside from back door'
   numberOf: 0
 --- !u!1 &1986354368 stripped
 GameObject:
@@ -66996,7 +66617,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 844825352}
   m_Father: {fileID: 253275181}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -68783,7 +68405,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1085974499, guid: 1b2b148dd58d7064b8bb618eb4d93869, type: 3}
       propertyPath: missionText
-      value: "G\xF6rev: 1. Kata \xC7\u0131k "
+      value: 'Mission: Go to the first floor'
       objectReference: {fileID: 0}
     - target: {fileID: 5983013131863530295, guid: 1b2b148dd58d7064b8bb618eb4d93869,
         type: 3}

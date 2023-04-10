@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 namespace EvolveGames
 {
     public class FinishTrigger : MonoBehaviour
@@ -15,7 +16,6 @@ namespace EvolveGames
         {
             if (other.gameObject.CompareTag("GameController"))
             {
-                // player = other.gameObject;
                 anim = ghost.GetComponent<Animator>();
                 player.GetComponent<PlayerController>().enabled = false;
                 player.transform.GetChild(0).GetChild(0).GetComponent<MovementEffects>().enabled = false;
@@ -31,33 +31,21 @@ namespace EvolveGames
                     ghostIsMoved = true;
 
                 });
-                /*    other.transform.DOLocalRotate(new Vector3(0, 250, 0), 1f).OnComplete(() =>
-                    {
-                        StartCoroutine(CameraGoBack(other.gameObject));
-                    });*/
             }
         }
 
         private void Update()
         {
-                if (ghostIsMoved && ghost.GetComponent<NavMeshAgent>().remainingDistance < 1f)
-                {
-                    UIController.instance.blackScreen.SetActive(true);
-                }
+            if (ghostIsMoved && ghost.GetComponent<NavMeshAgent>().remainingDistance < 1f)
+            {
+                UIController.instance.blackScreen.SetActive(true);
+                StartCoroutine(FinishScene());
+            }
         }
-        IEnumerator CameraGoBack(GameObject other)
+        IEnumerator FinishScene()
         {
             yield return new WaitForSeconds(3f);
-            other.transform.DOLocalRotate(new Vector3(0, 0, 0), 2f);
+            SceneManager.LoadScene(0);
         }
-        void FinishScene(GameObject other)
-        {
-
-        }
-        /*  IEnumerator CameraGoBack(GameObject other)
-          {
-              yield return new WaitForSeconds(3f);
-              other.transform.DOLocalRotate(new Vector3(0, 0, 0), 2f);
-          }*/
     }
 }

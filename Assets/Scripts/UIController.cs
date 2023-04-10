@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour
     [SerializeField] Color textColor;
     [SerializeField] float alphaNum, alphaNumForKeyName;
     public TextMeshProUGUI MissionText, newItemNameText;
-    public Image newItemImage, alertImg;
+    public Image newItemImage, alertImg, keyboard;
     public GameObject blackScreen;
 
     private void Awake()
@@ -23,6 +23,7 @@ public class UIController : MonoBehaviour
         alphaNumForKeyName = 0;
         newItemNameText.alpha = alphaNumForKeyName;
         StartCoroutine(MissionShow());
+        StartCoroutine(KeyboardTutorial());
 
     }
 
@@ -63,6 +64,12 @@ public class UIController : MonoBehaviour
                 break;
             }
         }
+    }
+    public IEnumerator KeyboardTutorial()
+    {
+        keyboard.DOFade(1f, 1f);
+        yield return new WaitForSeconds(8f);
+        keyboard.DOFade(0f, 1f);
     }
     public IEnumerator KeyNameShow()
     {
