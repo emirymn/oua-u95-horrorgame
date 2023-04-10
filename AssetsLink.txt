@@ -1,0 +1,10 @@
+tree asset: https://assetstore.unity.com/packages/3d/vegetation/trees/japanese-garden-pack-179492
+school asset: https://assetstore.unity.com/packages/3d/environments/japanese-school-stylized-221256
+security room asset: https://sketchfab.com/3d-models/abandoned-security-hut-low-poly-9dca98f815a3498aae3735ca1f074b0e
+enemy model: https://www.mixamo.com/#/?page=1&query=zombie&type=Character
+terrain texture: https://assetstore.unity.com/packages/2d/textures-materials/nature/terrain-textures-pack-free-139542
+school props: https://assetstore.unity.com/packages/3d/props/furniture/horror-school-props-112589
+movement: https://assetstore.unity.com/packages/templates/packs/realistic-fps-controller-free-223479
+Menu font: https://www.dafont.com/unutterable.font
+Menu Voice Effect: https://www.fesliyanstudios.com/sound-effects-search.php?q=menu+button
+Menu Music: https://pixabay.com/music/search/horror/
